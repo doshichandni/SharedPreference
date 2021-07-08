@@ -23,9 +23,11 @@ public class SplashActivity extends AppCompatActivity {
                 if (isLogin) {
                     Intent i = new Intent(SplashActivity.this, HomeActivity.class);
                     startActivity(i);
+                    finish();
                 } else {
                     Intent i = new Intent(SplashActivity.this, LoginActivity.class);
                     startActivity(i);
+                    finish();
                 }
             }
         }, SPLASH_TIME_OUT);
