@@ -2,6 +2,7 @@ package com.example.sharedp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
@@ -18,7 +19,7 @@ public class SplashActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                SharedPreferences sharedPreferences = getSharedPreferences("Login", MODE_PRIVATE);
+                SharedPreferences sharedPreferences = getSharedPreferences("login", Context.MODE_PRIVATE);
                 boolean isLogin = sharedPreferences.getBoolean("islogin", false);
                 if (isLogin) {
                     Intent i = new Intent(SplashActivity.this, HomeActivity.class);

@@ -11,24 +11,22 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/edtEmail"
-        android:text="Email"
+        android:hint="Email"
         android:layout_margin="20dp"
         android:layout_alignParentRight="true"
         android:ems="10"
-        android:inputType="text|textNoSuggestions"
-        android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
-        android:maxLength="20"/>
+        android:inputType="textEmailAddress"
+        android:maxLength="30"/>
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/edtPassword"
-        android:text="Password"
+        android:hint="Password"
         android:layout_margin="20dp"
         android:layout_alignParentRight="true"
         android:ems="10"
-        android:inputType="text|textNoSuggestions"
-        android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
+        android:inputType="textPassword"
         android:maxLength="20"/>
 
     <Button

@@ -23,19 +23,19 @@
         android:maxLength="30"
         android:text="Password"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/tvIsLogin"
-        android:layout_margin="20dp"
-        android:maxLength="30"
-        android:text="IsLogin"/>
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/tvIsLogin"-->
+<!--        android:layout_margin="20dp"-->
+<!--        android:maxLength="30"-->
+<!--        android:text="IsLogin"/>-->
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/tvNumber"
-        android:layout_margin="20dp"
-        android:maxLength="30"
-        android:text="Number"/>
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/tvNumber"-->
+<!--        android:layout_margin="20dp"-->
+<!--        android:maxLength="30"-->
+<!--        android:text="Number"/>-->
 </LinearLayout>
